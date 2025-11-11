@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sobre Mí - Eva Pérez</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#11d4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#102222",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        font-size: 20px;
+      }
+    </style>
+    <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col">
+<!-- Top App Bar -->
+<div class="flex items-center p-4 pb-2 justify-between sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<a href="index.html" class="flex size-10 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-[#92c9c9]">arrow_back</span>
+</a>
+<h1 class="text-[#f6f8f8] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Sobre Mí</h1>
+<div class="flex size-10 shrink-0 items-center"></div>
+</div>
+<!-- Main Content -->
+<main class="flex-1">
+<!-- Profile Header -->
+<div class="flex p-4 @container pt-6">
+<div class="flex w-full flex-col gap-6 items-center">
+<div class="flex gap-4 flex-col items-center">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-32 w-32" data-alt="Retrato profesional de Eva Pérez" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBl2UtdLeOXZvPyuGHKkVQsplE0ztNL7A9_7AztkAzIOAfp2M30e2NVYz2QtgpRW9vLET-q8MAR_VkbMaMZRvttGYMVD24jtX4kPXp89pOJ2rc46yGSl5N-g5dKPOBa9xJSCME3YbIE_WUJTCiLCgcfEKH5KoQ47aWtCijRnfi3m8UNq2j3brzEo5D73yNygi3YsB-sqNy5KXEBG4BuSC9EBCpddks8hpJRT_wObHxqaxoU9QmevjuEvjeTydBNeWD8J-PeVMyGCHVC4yo");'></div>
+<div class="flex flex-col items-center justify-center">
+<p class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Eva Pérez</p>
+<p class="text-[#92c9c9] text-base font-normal leading-normal text-center mt-1">Spa Consultant &amp; Wellness Expert</p>
+<p class="text-[#92c9c9] text-sm font-normal leading-normal text-center">Ultra-Luxury Hospitality</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Body Text - Introduction -->
+<p class="text-white text-base font-normal leading-relaxed pb-3 pt-4 px-4">
+                Con más de quince años de experiencia en la vanguardia del sector de bienestar de ultra-lujo, mi misión es transformar espacios hoteleros en santuarios de serenidad y experiencias inolvidables.
+            </p>
+<!-- Section Header - My Philosophy -->
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-6">Mi Filosofía</h2>
+<!-- Body Text - Philosophy -->
+<p class="text-white text-base font-normal leading-relaxed pb-3 pt-1 px-4">
+                Mi enfoque estratégico integra el bienestar en cada faceta de la hospitalidad, creando experiencias de lujo que no solo cumplen, sino que anticipan las necesidades de la clientela más exigente. Creo firmemente que el bienestar auténtico es el nuevo estándar del lujo.
+            </p>
+<!-- Highlighted Quote -->
+<div class="px-4 py-4">
+<blockquote class="border-l-2 border-primary/50 pl-4">
+<p class="text-white text-base italic font-normal leading-relaxed">"La verdadera esencia del lujo reside en un bienestar auténtico y meticulosamente diseñado."</p>
+</blockquote>
+</div>
+<!-- Section Header - Areas of Expertise -->
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-6">Áreas de Expertise</h2>
+<!-- Expertise List -->
+<div class="flex flex-col gap-4 px-4 pt-2 pb-8">
+<div class="flex items-center gap-4">
+<div class="flex size-10 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined">spa</span>
+</div>
+<span class="text-white text-base font-normal leading-normal">Diseño de Conceptos Spa</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex size-10 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined">trending_up</span>
+</div>
+<span class="text-white text-base font-normal leading-normal">Estrategia de Bienestar B2B</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex size-10 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<span class="text-white text-base font-normal leading-normal">Formación de Equipos de Alto Nivel</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex size-10 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<span class="text-white text-base font-normal leading-normal">Curación de Experiencias de Lujo</span>
+</div>
+</div>
+<!-- CTA Button -->
+<div class="px-4 pb-12 pt-4 sticky bottom-0 z-10 bg-gradient-to-t from-background-dark to-transparent">
+<a href="contact.html" class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-4 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Contactar</span>
+</a>
+</div>
+</main>
+</div>
+</body>
+</html>

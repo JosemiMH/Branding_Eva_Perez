@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Pérez - Mis Servicios</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#11d4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#102222",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+    <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-900 dark:text-white">
+<div class="flex flex-col min-h-screen">
+<!-- Top App Bar -->
+<header class="flex items-center p-4 pb-3 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 z-10 backdrop-blur-sm">
+<a href="index.html" class="text-gray-900 dark:text-white flex size-10 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</a>
+<h1 class="text-2xl font-bold leading-tight flex-1 text-center pr-10 text-gray-900 dark:text-white">Mis Servicios</h1>
+</header>
+<!-- Main Content -->
+<main class="flex-grow p-4 pt-2">
+<div class="flex flex-col gap-5">
+<!-- Service 1: Wellness Operations -->
+<details class="group flex flex-col rounded-xl border border-gray-200/10 dark:border-white/10 bg-white dark:bg-[#193333] overflow-hidden">
+<summary class="flex cursor-pointer flex-col items-start gap-4 p-5 list-none">
+<div class="flex w-full items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">spa</span>
+</div>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Wellness Operations &amp; Guest Experience</h2>
+</div>
+<div class="text-gray-600 dark:text-gray-300 transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined text-2xl">expand_more</span>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300 font-medium leading-normal pr-8">Creación de operaciones fluidas y experiencias de cliente inolvidables que generan lealtad.</p>
+</summary>
+<div class="px-5 pb-5">
+<p class="mb-4 text-sm font-normal leading-relaxed text-gray-600 dark:text-gray-300">Nuestro enfoque se centra en optimizar cada faceta de su operación de bienestar para ofrecer un servicio impecable y una experiencia de huésped que supere todas las expectativas, asegurando la máxima satisfacción y fidelización.</p>
+<ul class="space-y-2 mb-6 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Aumento de la eficiencia operativa y reducción de costes.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Implementación de estándares de servicio de ultra-lujo.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Mejora medible en la satisfacción y retención del huésped.</span>
+</li>
+</ul>
+<a href="contact.html" class="w-full block rounded-lg bg-primary py-3 text-center text-sm font-bold text-background-dark transition-opacity hover:opacity-90">Solicitar Consulta</a>
+</div>
+</details>
+<!-- Service 2: Revenue Optimization -->
+<details class="group flex flex-col rounded-xl border border-gray-200/10 dark:border-white/10 bg-white dark:bg-[#193333] overflow-hidden">
+<summary class="flex cursor-pointer flex-col items-start gap-4 p-5 list-none">
+<div class="flex w-full items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">trending_up</span>
+</div>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Revenue Optimization &amp; Strategic Growth</h2>
+</div>
+<div class="text-gray-600 dark:text-gray-300 transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined text-2xl">expand_more</span>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300 font-medium leading-normal pr-8">Maximizamos la rentabilidad de su spa a través de estrategias de precios, menú y marketing.</p>
+</summary>
+<div class="px-5 pb-5">
+<p class="mb-4 text-sm font-normal leading-relaxed text-gray-600 dark:text-gray-300">Analizamos su modelo de negocio actual para identificar oportunidades de crecimiento, desarrollando estrategias personalizadas que impulsan los ingresos y fortalecen su posición en el mercado de lujo.</p>
+<ul class="space-y-2 mb-6 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Incremento directo en los ingresos y mejora del GOP.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Optimización de la oferta de servicios y estrategias de precios.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Posicionamiento estratégico para un crecimiento sostenible.</span>
+</li>
+</ul>
+<a href="contact.html" class="w-full block rounded-lg bg-primary py-3 text-center text-sm font-bold text-background-dark transition-opacity hover:opacity-90">Saber Más</a>
+</div>
+</details>
+<!-- Service 3: Executive Wellness -->
+<details class="group flex flex-col rounded-xl border border-gray-200/10 dark:border-white/10 bg-white dark:bg-[#193333] overflow-hidden">
+<summary class="flex cursor-pointer flex-col items-start gap-4 p-5 list-none">
+<div class="flex w-full items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-2xl">self_improvement</span>
+</div>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Executive Wellness &amp; Leadership Resilience</h2>
+</div>
+<div class="text-gray-600 dark:text-gray-300 transition-transform duration-300 group-open:rotate-180">
+<span class="material-symbols-outlined text-2xl">expand_more</span>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300 font-medium leading-normal pr-8">Diseño de programas de bienestar para equipos directivos enfocados en prevenir el burnout.</p>
+</summary>
+<div class="px-5 pb-5">
+<p class="mb-4 text-sm font-normal leading-relaxed text-gray-600 dark:text-gray-300">Creamos programas a medida que equipan a sus líderes con las herramientas para gestionar el estrés, mejorar la toma de decisiones y fomentar una cultura de bienestar que permea toda la organización.</p>
+<ul class="space-y-2 mb-6 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Mejora del rendimiento y la resiliencia del equipo directivo.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Reducción del burnout y aumento en la retención de talento clave.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-base mt-0.5">check_circle</span>
+<span class="text-gray-900 dark:text-white">Fomento de una cultura organizacional positiva y productiva.</span>
+</li>
+</ul>
+<a href="contact.html" class="w-full block rounded-lg bg-primary py-3 text-center text-sm font-bold text-background-dark transition-opacity hover:opacity-90">Solicitar Consulta</a>
+</div>
+</details>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<footer class="sticky bottom-0 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-[#193333] z-10">
+<nav class="flex justify-around items-start px-2 pt-2 pb-3">
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-600 dark:text-gray-300" href="index.html">
+<span class="material-symbols-outlined">home</span>
+<p class="text-xs font-medium">Inicio</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-primary" href="services.html">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">business_center</span>
+<p class="text-xs font-bold">Servicios</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-600 dark:text-gray-300" href="about.html">
+<span class="material-symbols-outlined">person</span>
+<p class="text-xs font-medium">Sobre Mí</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1.5 text-gray-600 dark:text-gray-300" href="contact.html">
+<span class="material-symbols-outlined">mail</span>
+<p class="text-xs font-medium">Contacto</p>
+</a>
+</nav>
+</footer>
+</div>
+</body>
+</html>
